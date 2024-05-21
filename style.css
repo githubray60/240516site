@@ -205,3 +205,51 @@ footer {
     text-align: center;
     margin-bottom: 14px;
 }
+@media screen and (max-width:767px){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .pickup {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+    .pickup_box {
+        margin-bottom: 40px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 140px;
+    }
+    .mainarea {
+        margin-right: 0;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .article article {
+        text-align: left;
+    }
+    .article article p {
+        border-top: #777 solid 1px;
+        padding: 23px 0 23px 40px;
+    }
+    .footer_flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 55px 0 64px 0;
+    }
+    .about {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .menu {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
